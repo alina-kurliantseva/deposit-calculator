@@ -1,0 +1,86 @@
+@import 'https://fonts.googleapis.com/css?family=Oxygen|Roboto';
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282828;
+  font-family: Roboto, Oxygen, sans-serif;
+  color: #F0F0F0;
+}
+
+h2 {
+  width: 390px;
+  margin: 35px auto 0 auto;
+  padding: 15px;
+  text-align: center;
+  background-color: #C00000;
+  color: #FFFFFF;
+  border-radius: 7px 7px 0 0;
+}
+
+.profileForm {
+  background: #383838;
+  width: 390px;
+  margin: 0 auto;
+  padding: 15px 20px 10px 20px;
+}
+
+.profileForm input[type=text],
+.profileForm input[type=email],
+.profileForm select {
+  border: 1px solid #282828;
+  padding: 4.5px;
+  margin: 5px auto;
+  color: #282828;
+  width: 85%;
+  display: block;
+  background-color: #F0F0F0;
+}
+
+.profileForm input[type=submit],
+.profileForm input[type=reset] {
+  background-color: #C00000;
+  border-radius: 3px;
+  padding: 10px;
+  width: 40%;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.margin-auto {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.profileForm input[type=submit]:active,
+.profileForm input[type=submit]:focus,
+.profileForm input[type=submit]:hover {
+  background-color: #990000;
+}
+
+.profileForm input[type=reset]:active,
+.profileForm input[type=reset]:focus,
+.profileForm input[type=reset]:hover {
+  background-color: #990000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.error {
+  color: red
+}
+
+table  {
+  width: 85%;             
+  margin: 7px auto;
+  color: #F0F0F0;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+}
